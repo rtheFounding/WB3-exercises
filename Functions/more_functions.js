@@ -22,15 +22,13 @@ function addNumbers(num1, num2) {
 addNumbers(2, 2);
 
 function displayReceipt(totalDue, amountPaid) {
+    console.log("Total Due: " + totalDue);
+    console.log("Amount Paid: " + amountPaid);
     if (amountPaid > totalDue) {
         let changeDue = Math.abs(totalDue - amountPaid);
-        console.log("Total Due: " + totalDue);
-        console.log("Amount Paid: " + amountPaid);
         console.log("Change Due: " + changeDue);
     } else if (amountPaid < totalDue) {
         let answer = totalDue - amountPaid;
-        console.log("Total Due: " + totalDue);
-        console.log("Amount Paid: " + amountPaid);
         console.log("Amount needed: " + answer);
     } else 
     console.log("Have a good day! Come back again!");
