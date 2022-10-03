@@ -1,5 +1,5 @@
-function convertFtoC(currentTemp) {
-    return (5 / 9) * (currentTemp - 32);
+function convertFtoC(randomTemp) {
+    return (5 / 9) * (randomTemp - 32);
 }
 
 let currentTemp = 212;
