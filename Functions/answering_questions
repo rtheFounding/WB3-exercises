@@ -1,0 +1,65 @@
+/*"use strict";
+let a = 4;
+function test6() {
+ let a = 7;
+ function again() {
+ let a = 8;
+ console.log("a = " + a);
+ }
+ again();
+ console.log("a = " + a);
+}
+test6();
+console.log("a = " + a); */
+
+/*"use strict";
+let a = 4;
+function test5() {
+ a = 7;
+ function again() {
+ let a = 8;
+ console.log("a = " + a);
+ }
+ again();
+ console.log("a = " + a);
+}
+test5();
+console.log("a = " + a); */
+
+/*"use strict";
+function test2B() {
+ if (1 == 1) {
+ let a = 5;
+ }
+ console.log("a = " + a);
+}
+test2B(); // a is not defined here before it was declared. */
+
+/*"use strict";
+function test2A() {
+ if (1 == 1) {
+ var a = 5;
+ }
+ console.log("a = " + a);
+}
+test2A(); */
+
+/* "use strict";
+let a = 4;
+function test3() {
+ a = 3;
+ console.log("a = " + a);
+}
+test3(); // 3
+console.log("a = " + a); // if you dont declare a variable in a function it tries to use a globally scoped one of the same name. // 3 */
+
+
+/*"use strict";
+function test2B() {
+ if (1 == 1) {
+ let a = 5;
+ }
+ console.log("a = " + a);
+}
+test2B(); // here a isnt defined. */
+
