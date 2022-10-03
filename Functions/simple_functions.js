@@ -1,6 +1,6 @@
 function favoriteThings() {
     console.log("Name: Randy Rivera")
-    console.log("Favorite Movie: Star Wars")
+    console.log("Favorite Movie: Star Wars 1 - 6")
     console.log("Favorite Band: Twenty One Pilots")
 }
 
