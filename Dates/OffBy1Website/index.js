@@ -1,7 +1,5 @@
 "use strict";
-function refresh() {
-    window.location.reload("Refresh")
-}
+
 function buttonClicked() {
     const userDate = document.getElementById("userDate");
     let someDate = new Date(userDate.value); // or just userDate.value
